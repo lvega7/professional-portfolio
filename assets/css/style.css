@@ -1,7 +1,7 @@
 /* Header Styles START */
 header {
-    padding: 5px;
-    background-color: rgb(85, 85, 85);
+    padding: 1px;
+    background-color: whitesmoke;
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
@@ -9,14 +9,13 @@ header {
   header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: navy;
     margin-left: 50px;
   }
   
   header a {
     text-decoration: none;
-    color: #fce138;
+    color: navy;
   }
   header nav {
       margin: 18px 0;
@@ -33,9 +32,6 @@ header {
       padding: 10px 15px;
       font-weight: lighter;
       font-size: 1.55vw;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
-
     }
 
 /* Header Styles END */
@@ -43,7 +39,32 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
+    padding:50px;
 }
 .intro p {
-   justify-content: space-between;
+   margin-top:auto;
+   margin-bottom:auto;
+   
+}
+
+/* Content style starts */
+.content {
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.content h2 {
+  text-align: center;
+}
+.content img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  flex-direction:row;
+  float: left;
+  width: 30%;;
+  padding: 5px;
 }
