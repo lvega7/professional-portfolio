@@ -35,9 +35,12 @@ header {
     }
 
 /* Header Styles END */
+
+/* intro styles START */
 .intro {    
     text-align: center;
     padding:50px;
+
 }
 .flex {
   display:flex;
@@ -49,10 +52,12 @@ header {
    margin-bottom:auto;
    
 }
+/* intro styles END */
 
 /* Content style starts */
 .content {
   padding: 20px;
+
 }
 .content h2 {
   text-align: center;
@@ -62,9 +67,60 @@ header {
  
   padding: 5px;
 }
-#test {
-  background-image: url("../images/camera.jpeg");
-  width: 300px;
-  height:300px;
-  background-position: center;
+/* run buddy image styles */
+#run-buddy {
+  background-image: url("../images/Screen\ Shot\ 2021-09-03\ at\ 3.48.44\ PM.png");
+  width: 800px;
+  height: 350px;
+  background-size: cover;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
 }
+#run-buddy h3  {
+  background-color: orange;
+  color:whitesmoke;
+  margin-top: auto;
+  width: 30%;
+  padding: 15px;
+}
+/* horiseon image style */
+#horiseon {
+  background-image: url("../images/screenshot\ copy.png");
+  width: 300px;
+  height:500px;
+  background-size: cover;
+}
+
+#horiseon h3 {
+  background-color: orange;
+  color:whitesmoke;
+}
+
+/* robot image style */
+#robot {
+  background-image: url("../images/Screen\ Shot\ 2021-09-03\ at\ 4.13.04\ PM.png");
+  width: 300px;
+  height:500px;
+  background-size:cover;
+  background-position: top;
+  background-size: 700px;
+}
+#robot h3{
+  background-color: orange;
+  color:whitesmoke;
+}
+
+/* contact style */
+.contact {
+  text-align: center;
+  padding: 20px;
+}
+.contact button {
+  font-size: 20px;
+}
+
