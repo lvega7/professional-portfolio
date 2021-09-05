@@ -6,4 +6,4 @@ There are responsive images, css styles, and working links. I plan to update thi
 
 Link to my page: https://lvega7.github.io/professional-portfolio/
 
-![_Users_lissettevega_Desktop_projects_challenges_professional-portfolio_index html (1)](https://user-images.githubusercontent.com/88006211/132139971-7e656478-7197-44c7-b38b-e720bfc2fbb8.png))
+![_Users_lissettevega_Desktop_projects_challenges_professional-portfolio_index html (1)](https://user-images.githubusercontent.com/88006211/132139971-7e656478-7197-44c7-b38b-e720bfc2fbb8.png)
