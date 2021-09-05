@@ -1,3 +1,6 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 /* Header Styles START */
 header {
     padding: 1px;
@@ -9,13 +12,13 @@ header {
   header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: navy;
+    color: black;
     margin-left: 50px;
   }
   
   header a {
     text-decoration: none;
-    color: navy;
+    color: black;
   }
   header nav {
       margin: 18px 0;
@@ -33,6 +36,12 @@ header {
       font-weight: lighter;
       font-size: 1.55vw;
     }
+    header nav ul li a:hover {
+      background:lightcoral;
+      color:#024e76;
+      border-radius: 15px;
+      text-shadow: none;
+    }
 
 /* Header Styles END */
 
@@ -40,87 +49,305 @@ header {
 .intro {    
     text-align: center;
     padding:50px;
+    /* display:flex;
+    flex:wrap; */
+    /* justify-content: space-between; */
+    /* background-image: url("../images/abstract-trendy-black-line-pattern-decoration-background_121035-76.jpeg");
+    background-size: cover; */
+  
+    
+    
+}
+.intro img {
+  border: 5px solid black;
+}
 
+.intro h2 {
+  /* border-right: 5px solid black; */
+  /* width: 30%; */
+}
+.intro p {
+  text-align: center;
+ 
+  width:700px;
+  margin-top:auto;
+  margin-bottom:auto;
+  margin-left: 100px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+   
+}
+.intro a {
+  margin-left: 20px;
+  border: 5px solid black;
+  border-radius: 20px;
+  
 }
 .flex {
   display:flex;
   justify-content: space-around;
 
 }
-.intro p {
-   margin-top:auto;
-   margin-bottom:auto;
-   
-}
+
+
 /* intro styles END */
 
 /* Content style starts */
 .content {
   padding: 20px;
+  /* display:flex;
+    flex:wrap;
+    justify-content: space-between; */
+
 
 }
 .content h2 {
   text-align: center;
 }
-.content img {
-  margin-bottom: 15px;
- 
-  padding: 5px;
-}
+
 /* run buddy image styles */
 #run-buddy {
-  background-image: url("../images/Screen\ Shot\ 2021-09-03\ at\ 3.48.44\ PM.png");
   width: 800px;
-  height: 350px;
-  background-size: cover;
   display: block; 
   margin-left: auto; 
   margin-right: auto;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
-
+  margin-bottom: auto;
+  position: relative;
+  text-align:center;
+  display:flex;
+  color:green;
+ 
 }
-#run-buddy h3  {
+
+#run-buddy h3 {
   background-color: orange;
   color:whitesmoke;
-  margin-top: auto;
   width: 30%;
   padding: 15px;
+  position: absolute;
+  bottom: 50px;
+  left: 25px;
+  
+}
+#run-buddy img {
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+#run-buddy:hover{
+  opacity: .7;
+  border-radius: 25px;
+  text-shadow: none;
 }
 /* horiseon image style */
 #horiseon {
-  background-image: url("../images/screenshot\ copy.png");
+  display:flex;
+  position: relative;
+  text-align:center;
+}
+#horiseon div{
+  /* background-image: url("../images/screenshot\ copy.png"); */
   width: 300px;
   height:500px;
   background-size: cover;
+  margin-top: 10px;
+  display: flex;
+ 
+}
+#horiseon img {
+  border: 5px solid black;
+  border-radius: 20px;
 }
 
 #horiseon h3 {
   background-color: orange;
   color:whitesmoke;
+  background-color: orange;
+  color:whitesmoke;
+
+  width: 50%;
+  padding: 5px;
+
+  position: absolute;
+  bottom: 8px;
+  left: 6px;
+}
+
+#horiseon:hover {
+  opacity: .7;
+  border-radius: 25px;
+  text-shadow: none;
 }
 
 /* robot image style */
 #robot {
-  background-image: url("../images/Screen\ Shot\ 2021-09-03\ at\ 4.13.04\ PM.png");
-  width: 300px;
-  height:500px;
-  background-size:cover;
-  background-position: top;
-  background-size: 700px;
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+  text-align:center;
 }
+
 #robot h3{
   background-color: orange;
   color:whitesmoke;
+  background-color: orange;
+  color:whitesmoke;
+
+  width: 75%;
+  padding: 5px;
+
+  position: absolute;
+  bottom: 10px;
+  left: 6px;
+}
+  
+  
+#robot img {
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 300px;
+  background-size: 50%;
+  
+}
+#robot:hover{
+  opacity: .7;
+  border-radius: 25px;
+  text-shadow: none;
 }
 
+#holder {
+ margin-top: 10px;
+  display: flex;
+  position: relative;
+  text-align:center;
+}
+
+
+#holder h3 {
+  background-color: orange;
+  color:whitesmoke;
+  background-color: orange;
+  color:whitesmoke;
+  width: 75%;
+  padding: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 6px;
+}
+#holder img {
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 300px;
+  background-size: 50%;
+}
+#holder:hover{
+  opacity: .7;
+  border-radius: 25px;
+  text-shadow: none;
+}
 /* contact style */
 .contact {
   text-align: center;
-  padding: 20px;
-}
-.contact button {
-  font-size: 20px;
+  padding: 10px;
+  font-size: 18;
+  display: flex;
+  flex:wrap;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
 }
 
+.contact button {
+  font-size: 20px;
+
+}
+#button {
+  margin-right: 15px;
+  justify-content: space-evenly;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+ }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+  header nav ul{
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  } */
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+  #holder {
+    display:block;
+    flex: 1 100%;
+    text-align: center;
+  }
+  #robot img {
+    flex: 0 70%;
+    width: max-content;
+  }
+  #holder img {
+    flex: 0 70%;
+    text-align: center;
+    justify-content: center;
+  }
+  #holder {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  #holder {
+    flex: 100%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hero-form button {
+    width: 100%;
+  }
+
+  .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .content {
+    flex: 0 100%;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+  .contact-form {
+    order: 3;
+  }
+
+}
