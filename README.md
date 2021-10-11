@@ -1,6 +1,6 @@
 # Professional-portfolio
 
-For this project i created a website portfolio. From scratch, i created a website that showcases the work that i have done so far.
+For this project I created a website portfolio. From scratch, i created a website that showcases the work that i have done so far.
 
 There are responsive images, css styles, and working links. I plan to update this as I learn more and more in my class. 
 
